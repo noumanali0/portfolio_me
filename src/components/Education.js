@@ -8,7 +8,7 @@ const Education = () => {
         <div className="row">
           <div className="col-4">
             <h1
-              className="display-6"
+              className="display-6 headings"
               style={{
                 fontWeight: "bold",
                 color: "#6372ff",
@@ -17,7 +17,7 @@ const Education = () => {
               Education
             </h1>
           </div>
-          <div className="col-6 mt-3 d-flex " data-aos="fade-up">
+          <div className="col-6 mt-3 d-flex mt-5 about-sec " data-aos="fade-up">
             <div className="">
               <MdOutlineCastForEducation size={30} />
             </div>

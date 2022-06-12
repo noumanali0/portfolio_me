@@ -70,3 +70,23 @@ h3 {
   color: #608dfd;
   background: #fff;
 }
+
+@media (max-width: 800px) {
+  .containerr img:first-child {
+    display: none;
+  }
+
+  .skills {
+    width: 100%;
+    display: grid;
+
+    margin-right: 100px;
+  }
+
+  .about-sec {
+    width: 100%;
+    display: grid;
+
+    margin-right: 100px;
+  }
+}

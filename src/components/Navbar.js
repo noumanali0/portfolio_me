@@ -1,6 +1,7 @@
 import React from "react";
 import { animateScroll as scroll } from "react-scroll";
 import { Container, Navbar, Nav } from "react-bootstrap";
+import img from "../images/logo.png";
 
 const NavBar = () => {
   return (
@@ -8,13 +9,19 @@ const NavBar = () => {
       <Navbar
         collapseOnSelect
         expand="lg"
-        bg="light"
+        bg="white"
         variant="light"
         style={{ position: "sticky", top: "0" }}
       >
         <Container>
-          <Navbar.Brand href="home">
-            <h4 className="font-weight-bold">Nouman</h4>
+          <Navbar.Brand
+            href="home"
+            onClick={(e) => {
+              e.preventDefault();
+              scroll.scrollToTop();
+            }}
+          >
+            <img src={img} width="110" height="90" alt="imgNotFound" />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">

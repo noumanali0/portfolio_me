@@ -6,7 +6,7 @@ const Experience = () => {
     <>
       <div className="container" style={{ marginTop: "100px" }}>
         <div className="row">
-          <div className="col-4">
+          <div className="col-4 headings">
             <h1
               className="display-6"
               style={{
@@ -17,11 +17,14 @@ const Experience = () => {
               Experience
             </h1>
           </div>
-          <div className="col-6 mt-3 d-flex " data-aos="fade-up">
+          <div
+            className="col-6 mt-5 d-flex justify-content-center about-sec"
+            data-aos="fade-up"
+          >
             <div className="">
               <HiBriefcase size={30} />
             </div>
-            <div>
+            <div className="">
               <p
                 className="px-3 py-1"
                 style={{
